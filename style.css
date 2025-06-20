@@ -1,0 +1,118 @@
+:root {
+    --text-color: #251f1c;
+    --text-color2: #527976;
+    --background-color: #fdf4ed;
+    --font: azuki_font;
+}
+
+body {
+  font-family: var(--font);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 2em;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.title {
+  font-size: 2em;
+  margin-top: 0.5em;
+  color: var(--text-color);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+header img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.time {
+  font-size: 1.5em;
+  margin-top: 1em;
+  color: var(--text-color2);
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+}
+
+section {
+  padding: 1em;
+}
+
+h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3em;
+  color: var(--text-color)
+}
+
+ul {
+  font-size: 1.2em;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color2);
+  transition: color 0.5s ease;
+}
+
+a:hover {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.page-toggle {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.page-toggle button {
+  color: var(--text-color2);
+  font-family: azuki_font;
+  font-size: 1.2em;
+  background: transparent;
+  border: none;
+  padding: 0.6em 1.2em;
+  margin: 0 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.8s ease;
+  transition: color 0.5s ease;
+}
+
+.page-toggle button:hover {
+  color: var(--text-color);
+  background: transparent;
+}
+
+.page {
+  display: none;
+  animation: fadeIn 0.3s ease;
+}
+
+.page.active {
+  display: block;;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
