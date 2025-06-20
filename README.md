@@ -1,7 +1,11 @@
-edit style.css variables under :root for colors
+## How to use:
 
-add an image named image.png 
+```
+* edit style.css variables under :root for colors
 
-customize your links in links.js. you can, in theory, have as many pages as you want but it might break, didn't test past 3.
+* add an image named image.png 
+
+* Edit links in links.js
+```
 
 i wouldn't recommend using this anyway, it's mainly for myself!
