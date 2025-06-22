@@ -4,6 +4,7 @@ const LINKS = {
       personal: [
         { name: "aria's github", url: "https://github.com/ariaofserenity" },
         { name: "gmail", url: "https://gmail.com" },
+        { name: "google chat", url: "https://chat.google.com" },
       ],
       dev: [
         { name: "stack overflow", url: "https://stackoverflow.com" },
@@ -27,6 +28,8 @@ const LINKS = {
       homelab: [
         { name: "storage", url: "http://192.168.2.14" },
         { name: "pi-Hole", url: "http://192.168.2.11/admin" },
+        { name: "proxmox", url: "https://proxmox01.catwife.dev" },
+       { name: "grocy", url: "https://grocy.catwife.dev" }
       ],
     },
   },
