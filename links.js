@@ -27,7 +27,7 @@ const LINKS = {
     categories: {
       homelab: [
         { name: "storage", url: "http://192.168.2.14" },
-        { name: "pi-Hole", url: "http://192.168.2.11/admin" },
+        { name: "pi-hole", url: "http://192.168.2.11/admin" },
         { name: "proxmox", url: "https://proxmox01.catwife.dev" },
        { name: "grocy", url: "https://grocy.catwife.dev" }
       ],
