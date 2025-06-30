@@ -13,7 +13,7 @@ const LINKS = {
       ],
       socials: [
         { name: "twitter", url: "https://twitter.com" },
-        { name: "bluesky", url: "https://bsky.app" },
+        { name: "bsky", url: "https://bsky.app" },
         { name: "reddit", url: "https://www.reddit.com" },
         { name: "youtube", url: "https://youtube.com" },
       ],
