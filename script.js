@@ -38,7 +38,6 @@ function renderCategories(container, sectionData) {
       const li = document.createElement("li");
       const a = document.createElement("a");
       a.href = url;
-      a.target = "_blank";
       a.rel = "noopener noreferrer";
       a.textContent = name;
       li.appendChild(a);
