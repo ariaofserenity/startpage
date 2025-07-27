@@ -1,9 +1,24 @@
+function getDate() {
+  const dateElement = document.getElementById("date");
+  const currentDate = new Date();
+
+   const date = currentDate.toLocaleDateString('en-US', {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',     
+        day: 'numeric'
+    }).replace(/,/g, ''); 
+
+  dateElement.textContent = `${date}`;
+}
+
 function updateTime() {
   const now = new Date();
   document.getElementById("time").textContent = now.toLocaleTimeString();
 }
 setInterval(updateTime, 1000);
 updateTime();
+getDate();
 
 function showPage(pageId) {
   document.querySelectorAll(".page").forEach((page) => {
