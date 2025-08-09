@@ -1,7 +1,7 @@
 :root {
-    --text-color: #251f1c;
-    --text-color2: #527976;
-    --background-color: #fdf4ed;
+    --text-color: #fddef4;
+    --text-color2: #fddef4;
+    --background-color: #1b1b1b;
     --font: azuki_font;
 }
 
@@ -52,7 +52,7 @@ section {
 }
 
 h2 {
-  border-bottom: 2px solid #527976;
+  border-bottom: 2px solid #fddef4;
   padding-bottom: 0.3em;
   color: var(--text-color)
 }
